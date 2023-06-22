@@ -8,6 +8,13 @@ function Submit(){
         if(allUsers[i].email == email && allUsers[i].password == password){
             localStorage.setItem("activeUser", JSON.stringify({email, password, username: allUsers[i].username}))
             console.log("logged In")
+               Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: 'Login Successfully',
+                showConfirmButton: false,
+                timer: 1500
+              })
             window.location.href="https://waqasalam-todo-app.netlify.app/"
         } 
         
