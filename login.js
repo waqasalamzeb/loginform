@@ -15,7 +15,7 @@ function Submit(){
                 showConfirmButton: false,
                 timer: 1500
               })
-            window.location.href="https://waqasalam-todo-app.netlify.app/"
+            window.location.href="https://waqasalamzeb.github.io/Todo-App/"
         } 
         
         else {
